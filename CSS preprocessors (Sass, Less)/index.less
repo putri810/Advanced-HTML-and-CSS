@@ -1,0 +1,27 @@
+// File: styles.less
+
+// Variabel
+@primary-color: #007bff;
+@border-radius: 4px;
+
+// Nested Rules
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: @border-radius;
+
+    h1 {
+      color: @primary-color;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+  }
+}
